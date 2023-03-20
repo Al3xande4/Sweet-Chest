@@ -23,6 +23,7 @@ body{
     font-size: 14px;
     line-height: 1.5;
     color: #2E363E;
+    background-color: white;
 }
 .visually-hidden{
     display: none;
@@ -344,6 +345,7 @@ body{
     font-size: 48px;
     line-height: 60px;
     color: white;
+    text-align: center;
 }
 
 .reviews__list{
@@ -438,7 +440,7 @@ body{
     justify-content: center;
     gap: 9px;
 }
-@media screen and (min-width: 1040px) and (max-width: 1440px) {
+@media screen and (min-width: 1040px) and (max-width: 1940px) {
     .orders__list{
         grid-template-columns: 1fr 1fr;
     }
@@ -476,7 +478,7 @@ body{
     padding-bottom: 100px;
 }
 .buy__inner .top__background{
-    background-image: url('/img/05\ 1.png');
+    background-image: url('../img/05\ 1.png');
 }
 .buy__form{
     background-color: white;
